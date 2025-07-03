@@ -1,0 +1,304 @@
+
+.x{
+    width:500px;
+}
+.profile_pic,.leetcode{
+    width:10.625rem;
+    height:10.625rem;
+    border-radius:6.25rem;
+    margin: auto;
+        
+
+    
+}
+.theme{
+    display:flex;
+    flex-direction: row;
+    background-color: white;
+    padding-left: 0;
+    width:3.125rem;
+    height:1.25rem;
+    margin-left:43% ;
+}
+
+.t1{
+background-color: red;
+    border:0.125rem solid white;
+
+}
+.t1:hover,.t2:hover,.t3:hover{
+    width:1.4375rem;
+    height:1.4375rem;
+}
+.t2{
+background-color: black;
+    border:0.125rem solid white;
+
+
+}
+.text2{
+    width:30px;
+    color:white;
+    padding-left: 5px;
+}
+.t3{
+background-color:green;
+    border:0.125rem solid white;
+
+}
+.leetcode{
+    margin-top:3.125rem;
+    border:0.125rem solid white;
+    
+}
+p{
+    font-size:1.25rem;
+}
+.profile_div{
+    padding:0.125rem;
+    margin-left:1.25rem;
+        margin-left:40px ;
+
+    margin-top:11.875rem;
+    display:inline-block;
+    background:white;
+    width:10.625rem;
+    height:10.625rem;
+    border-radius:6.25rem;
+    transition:opacity 0.8s;
+    transition:width 0.8s;
+    
+    
+}
+.profile_two{
+    width:37.5rem;
+    display:grid;
+    grid-template-columns:10.625rem 25rem;
+    align-items: center;
+    column-gap:0.16rem; 
+}
+
+
+.name,.name2{
+    
+    font-size: 400%;
+    color:white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition:opacity 0.8s;
+    margin:0 0;
+}
+.name2{
+    margin-bottom:4.375rem;
+}
+.projects{
+    display:flex;
+
+    flex-direction:column;
+}
+.teet{
+    align-items: center;
+
+}
+.project-img{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+div{
+    display:flex;
+    padding-left:3.125rem;
+}
+.leet{
+    padding-left:0px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 2.5rem;
+}
+
+.level{
+    display:flex ;
+    flex-direction: column;
+}
+.progbar{
+    position: relative;
+    border-radius:1.875rem;
+    padding-left:0px;
+    display:inline-block;
+    
+    background-color:grey; 
+    width:31.25rem; 
+    height:0.1875rem;
+}
+.pp1{
+        position: absolute;
+        width:3.125rem;
+        
+        
+        height:0.1875rem;
+        
+}
+.pp2{
+        position: absolute;
+        width:3.125rem;
+        height:0.1875rem;
+}
+.pp3{
+        position: absolute;
+        width:3.125rem;
+        height:0.1875rem;
+}
+    
+.progbar div{
+    top:0px;
+    border-radius:1.875rem;
+    background-color:blue; 
+    display:inline-block;
+}
+.text{
+    font-style: bold;
+    color:lavender;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+p{
+    color:lavender;
+}
+h1,h2,h3{
+    color:lavender;
+}
+.num{
+    margin-top: 0.625rem;
+    font-size: 500%;
+}
+.about{
+    font-size: larger;
+    padding:0.625rem;
+    padding-left:3.125rem;
+
+    border-radius: 1.875rem;
+    
+}
+.skills{
+    display:flex;
+    flex-direction: column;
+justify-content: center;
+}
+.skillprog{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    column-gap: 30px;
+    padding-left:0px;
+    
+}
+
+img{
+    border-radius: 1.875rem;
+}
+.prog{
+    width:31.25rem;
+    border-radius:1.875rem;
+
+}
+
+.main{
+    opacity:0;
+    display:flex;
+    padding-bottom: 1.25rem;
+    padding-top: 1.25rem;
+    padding-left: 0px;
+    padding-right:3.125re,;
+    background: black;
+    flex-direction: column;
+    /* align-items: center; */
+    transition:opacity 0.8s;
+    min-width:6.25rem;
+    
+}
+
+.placeholder{
+    opacity:1.0;
+    background-color: black;
+    padding-left: 0px;
+    min-width: none;
+    padding-right: 3.125rem;
+    min-width:6.25rem;
+
+
+}
+body{
+    padding:0.1875rem;
+    min-width:6.25rem;
+}
+@media (max-width:600px){
+    body{
+        font-size:10px;
+    }
+    .x{
+       width:300px;
+       margin-right: 50px;
+       
+    }
+    
+    
+   .teet{
+    padding:0;
+    margin:auto;
+   }
+   
+   .num{
+    margin-left:20px;
+   }
+   
+    img{
+        width:250px;
+        height:200px;
+    }
+    .leetcode{
+        width:100px;
+        height:100px;
+    }
+    .profile_pic,.profile_div{
+        width:100px;
+        height:100px;
+    }
+    
+    .progbar{
+        width:150px;
+        height:3px;
+    }
+    .full{
+        width:0px;
+        font-size:0px;
+    }
+    .pp1{
+        width:15px;
+        
+    }
+    .profile_two{
+        width:200px;
+        height:100px;
+        background-color: red;
+    }
+    .pp2{
+        width:10px;
+        
+    }
+    .pp3{
+        width:10px;
+        
+    }
+    .leet{
+        display:flex;
+        flex-direction:column;
+        
+    }
+    .leetcode{
+        margin: auto;
+        margin-bottom:20px ;
+    }
+    
+}
